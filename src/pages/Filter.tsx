@@ -54,7 +54,7 @@ const Filter = () => {
             <NavScrollExample />  
         </Container>
         <Container>
-        <section className='test-h'>
+        <section className='test-h marginFooter'>
             <div className="d-flex">
                     <Form.Control
                     type="search"
@@ -67,7 +67,7 @@ const Filter = () => {
             </div>
             <Row className='mt-5'>
                 {filteredItems.map ((item) =>(
-                    <Col md={3} key={item.id}>
+                    <Col md={3} key={item.id} className='text-center'>
                         <img src={item.image} alt="img" width={300} />
                         <h2>{item.category}</h2>
                         <h5>{item.name}</h5>
@@ -84,7 +84,7 @@ const Filter = () => {
             </Row>
         </section> 
         </Container>
-        <footer className='mt-5 footerMe fixed-bottom'>
+        <footer className='mt-5 footerMe fixed-bottom main-bg-color'>
           <Container>
             <Footer />
           </Container>

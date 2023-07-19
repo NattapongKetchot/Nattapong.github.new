@@ -6,6 +6,7 @@ import Filter from './pages/Filter'
 import CoursesDetail from './pages/CoursesDetail';
 import Courses from './pages/Courses';
 import About from './pages/About';
+import NotFound from './pages/Notfound';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
   return (
     <Routes>
       <Route path='/' element={<Home />} />
+      <Route path='*' element={<NotFound />} />
       <Route path='/Filter' element={<Filter />} />
       <Route path='Courses/CoursesDetail/:id' element={<CoursesDetail />} />
       <Route path='/Courses' element={<Courses />} />
