@@ -1,0 +1,65 @@
+ * {
+  margin: 0;
+  padding: 0;
+ }
+ @font-face {
+    font-family: 'CustomFont'; /* Specify the name you want to use for the font */
+    src: url('../src/assets/font/Poppins-Regular.ttf'); /* Provide the path to the font file */
+  }
+body {
+    font-family: 'CustomFont';
+  }
+.main-bg-color {
+  background-color: #EBD458;
+}
+.secondery-color {
+  color:#1E90FF ;
+}
+
+.widthIcon {
+    width: 50px;
+    height: auto;
+}
+.navBarFont {
+  font-size: 20px;
+}
+.nav-r {
+  justify-items: end !important;
+}
+.button-CompletedTheCourse {
+  background-color: green;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 0.1s;
+}
+.button-CompletedTheCourse:hover {
+  cursor:pointer ;
+  padding: 0.7rem;
+}
+.GetStarted-btn {
+  background-color: #EBD458;
+  padding: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 20px;
+  transition: 0.1s;
+}
+.GetStarted-btn:hover {
+  padding: 0.8rem;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+.button-back {
+  background-color: #000000;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+}
+.marginFooter {
+  margin-bottom: 300px;
+}
